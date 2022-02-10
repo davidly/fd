@@ -5,7 +5,7 @@ Find Duplicates. Windows command-line app for finding duplicate files.
     
       arguments:  [-f] A specific file for which duplicates are found.
                   [-m] The minimum sized file to consider.
-                  [-n] Ignore file Names. Find duplicates based soley on size and contents.
+                  [-n] Ignore file Names. Find duplicates based solely on size and contents.
       examples: fd
                 fd g:\home
                 fd -m:1000000 g:\home
