@@ -25,7 +25,7 @@ class FindDuplicates
         Console.WriteLine( "Usage: fd [-f:FILENAME] [-m:SIZE] [-n] <path> <filespec>" );
         Console.WriteLine( "  arguments:  [-f] A specific file for which duplicates are found." );
         Console.WriteLine( "              [-m] The minimum sized file to consider." );
-        Console.WriteLine( "              [-n] Ignore file Names. Find duplicates based soley on size and contents." );
+        Console.WriteLine( "              [-n] Ignore file Names. Find duplicates based solely on size and contents." );
         Console.WriteLine( "  examples: fd" );
         Console.WriteLine( "            fd g:\\home" );
         Console.WriteLine( "            fd -m:1000000 g:\\home" );
